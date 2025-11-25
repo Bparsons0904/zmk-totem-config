@@ -77,10 +77,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp Q           &kp W       &kp E        &kp R                    &kp T          &kp Y        &kp U        &kp I        &kp O       &kp P
-                  &mt LEFT_ALT A  &mt LGUI S  &mt LCTRL D  &mt LSHFT F              &kp G          &kp H        &mt RSHFT J  &mt RCTRL K  &mt RGUI L  &mt RIGHT_ALT SEMI
-&kp LEFT_CONTROL  &kp Z           &kp X       &kp C        &kp V                    &kp B          &kp N        &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOS
-                                              &kp ESCAPE   &mt LEFT_META BACKSPACE  &lt NAV TAB    &lt SYM RET  &kp SPACE    &lt 2 ESC
+                  &kp Q           &kp W       &kp E         &kp R                    &kp T          &kp Y      &kp U        &kp I        &kp O       &kp P
+                  &mt LEFT_ALT A  &mt LGUI S  &mt LCTRL D   &mt LSHFT F              &kp G          &kp H      &mt RSHFT J  &mt RCTRL K  &mt RGUI L  &mt RIGHT_ALT SEMI
+&kp LEFT_CONTROL  &kp Z           &kp X       &kp C         &kp V                    &kp B          &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOS
+                                              &lt 3 ESCAPE  &mt LEFT_META BACKSPACE  &lt NAV TAB    &kp ENTER  &kp SPACE    &mo 2
             >;
         };
 
@@ -129,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS      &kp RA(U)             &kp SQT                &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp MINUS  &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp GRAVE  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BSLH   &trans
-                                  &trans     &gif      &mo ADJ      &trans     &kp C_PP      &trans
+        &kp TILDE     &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GRAVE
+        &kp SLASH     &kp UNDERSCORE    &kp MINUS       &kp EQUAL             &kp PLUS            &kp LEFT_ARROW     &kp DOWN_ARROW         &kp UP_ARROW     &kp RIGHT_ARROW    &kp SEMICOLON
+&trans  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp NUMBER_5        &kp NUMBER_6       &kp NUMBER_7           &kp NUMBER_8     &kp NUMBER_9       &kp NUMBER_0   &trans
+                                        &gif            &kp LEFT_SHIFT        &mo ADJ             &trans             &kp C_PP               &trans
             >;
         };
 
